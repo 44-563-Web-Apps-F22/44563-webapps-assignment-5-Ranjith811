@@ -9,6 +9,24 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div style="background-color:chocolate" class="container-fluid">
+          <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>  
+          <div style="background-color:red" class="collapse navbar-collapse" id="navbar-toggler">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="basic.html">BASIC PAGE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">ADVANCED PAGE</a>
+              </li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
     <h1>Insects by Ranjith vungarala</h1>
     <div class="container">
         <div class="row">
@@ -22,12 +40,163 @@
         <div class="row">
             <div class="col-md">Viceroy butterfly</div>
             <div class="col-md">Underwing</div>
-            <div class="col-md">	Netwing</div>
+            <div class="col-md">Netwing</div>
             <div class="col-md">Grasshopper</div>
-            <div class="col-md">	Assassin bug</div>
-            <div class="col-md">	Rhinoceros beetle</div>
+            <div class="col-md">Assassin bug</div>
+            <div class="col-md">Rhinoceros beetle</div>
         </div>
     </div>
     <p>Second row with insects name in it breaks first due to grid class as it has 6v rows which are filed. Our grid supports six responsive breakthroughs and these are based on min-width media query that effect the breakthrough above it.It means that you can control container and column sizing and behaviour by each breakpoint.</p>
+    <div class="container">
+        <img src="Viceroy butterfly.jpg" class="img-fluid"  width=300  alt="Viceroy butterfly">
+        <img src="Underwing.jpg"class="img-fluid" width=300   alt="Underwing">
+        <img src="Netwing.jpg" class="img-fluid"  width=300   alt="Netwing">
+      </div>
+      <div class="container-fluid">
+        <a target="_blank" href="Viceroy butterfly.jpg">
+        <img src="Viceroy butterfly.jpg" class="img-thumbnail" width=300 alt="Viceroy butterfly">
+        </a>
+        <a target="_blank" href="Underwing.jpg">
+        <img src="Underwing.jpg"class="img-thumbnail" width=300 alt="Underwing">
+      </a>
+        <a target="_blank" href="Netwing.jpg">
+        <img src="Netwing.jpg" class="img-thumbnail" width=300 alt="Netwing">
+      </a>
+      </div>
+      <table class="table table-striped table-bordered">
+        <caption>A Table for Insects</caption>
+        <thead>
+        <tr>
+          <th scope="col">SNo</th>
+          <th scope="col">Letter</th>
+          <th scope="col">Insects</th>
+          <th scope="col">City</th>
+          <th scope="col">River</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+          <th scope="row">1</th>
+          <td class="table-info"style="color:darkcyan">V</td>
+          <td class="table-info"style="color:crimson">Viceroy butterfly</td>
+          <td class="table-info"style="color:crimson">Vancouver</td>
+          <td class="table-info"style="color:crimson">Ventura River</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td class="table-primary" style="color:darkcyan">U</td>
+          <td class="table-primary"style="color:cornflowerblue">Underwing</td>
+          <td class="table-primary"style="color:cornflowerblue">Ukiah</td>
+          <td class="table-primary" style="color:cornflowerblue">Ugashik River</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td class="table-success"style="color:darkcyan">N</td>
+          <td class="table-success"style="color:darkmagenta">Netwing</td>
+          <td class="table-success"style="color:darkmagenta">Nashville</td>
+          <td class="table-success"style="color:darkmagenta">Naknek River</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td  class="table-warning"style="color:darkcyan">G</td>
+          <td  class="table-warning"style="color:darkslategray" >Grasshopper</td>
+          <td  class="table-warning"style="color:darkslategray">Grand Rapids</td>
+          <td  class="table-warning"style="color:darkslategray">Genesee Rive</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td class="table-light"style="color:darkcyan">A</td>
+          <td class="table-light"style="color:darkgray">Assassin bug</td>
+          <td class="table-light"style="color:darkgray">Austin</td>
+          <td class="table-light"style="color:darkgray">Aberjona River</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td class="table-secondary"style="color:darkcyan"z>R</td>
+          <td class="table-secondary"style="color:green">Rhinoceros beetle</td>
+          <td class="table-secondary"style="color:green">Raleigh</td>
+          <td class="table-secondary"style="color:green">Raccoon Creek</td>
+        </tr>
+      </tbody>
+    </table>
+   
+      <label>BUTTONS</label>
+      <div>
+          <button type="button" class="btn btn-success">V</button>
+          <button type="button" class="btn btn-warning">U</button>
+          <button type="button" class="btn btn-danger">N</button>
+          <button type="button" class="btn btn-secondary">G</button>
+          <button type="button" class="btn btn-info">A</button>
+          <button type="button" class="btn btn-dark">R</button>
+      </div><br>
+      <label>BUTTON GROUPS:</label>
+          <div class="btn-toolbar" >
+          <div class="btn-group" role="group" aria-label="Success" >
+            <button type="button" class="btn btn-success">V</button>
+            <button type="button" class="btn btn-success">U</button>
+            <button type="button" class="btn btn-success">N</button>
+          </div><br>
+          <div class="btn-group" role="group" aria-label="Basic example">
+         <button type="button" class="btn btn-warning">G</button>
+         <button type="button" class="btn btn-warning">A</button>
+         </div><br>
+     <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-danger">R</button>
+      </div><br>
+      </div>
+
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenubar" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown button
+        </a>
+        <caption>DROP DOWN BAR</caption><br>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenubar">
+          <li><a class="dropdown-item" href="basic.html">Basic link</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced link</a></li>
+        </ul>
+      </div>
+<form>
+        <div class="form-group">
+          <label for="InputEmail" class="form-label">Email address</label>
+          <input type="email address" placeholder="Enter your email address:" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">no email is shared with anyone else.</div>
+        </div>
+        <div class="form-group">
+          <label for="Insect" class="form-label">Insects</label>
+          <input type="text" placeholder="Enter your insect:" class="form-control" for="insects">
+          <div id="InsectChoice" class="form-text">Enter your Insect.</div>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="formcheck">
+          <label class="form-check-label" for="formCheck">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="row">
+  <div class="card" style="width: 18rem;">
+    <img src="Viceroy butterfly.jpg" class="card-img-top" alt="Viceroy butterfly">
+    <div class="card-body">
+      <h5 class="card-title">Viceroy butterfly</h5>
+      <p class="card-text">The world is divided into eight biogeographic realms – Palearctic, Nearctic, Afrotropical, Neotropical, Australasian, Indomalayan, Oceanian, and Antarctic.  </p>
+      <a href="https://en.wikipedia.org/wiki/Viceroy_(butterfly)" class="btn btn-primary">Insect info</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="Underwing.jpg" class="card-img-top" alt="Underwing">
+    <div class="card-body">
+      <h5 class="card-title">Underwing</h5>
+      <p class="card-text">This is a large (80 mm wingspan) nocturnal Palearctic (including Europe species which, like most noctuids, is above and with the wings closed drably coloured to aid concealment during the day. It flies in August and September, and comes freely to both light and sugar. </p>
+      <a href="https://en.wikipedia.org/wiki/Red_underwing" class="btn btn-primary">Insect info</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="Netwing.jpg" class="card-img-top" alt="Netwing">
+    <div class="card-body">
+      <h5 class="card-title">Netwing</h5>
+      <p class="card-text">Dictyoptera aurora, known generally as the golden net-wing or red net-winged beetle, is a species of net-winged beetle in the family Lycidae. </p>
+      <a href="https://en.wikipedia.org/wiki/Dictyoptera_aurora" class="btn btn-primary">Insect info</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
